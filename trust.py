@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import has_any_role, MissingAnyRole
 
-token = 'your discord token here'
+token = 'your discord bot token here'
 
 intents = discord.Intents.default()
 intents.message_content = True
